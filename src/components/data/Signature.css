@@ -1,0 +1,36 @@
+.css-signature {
+  /* background:linear-gradient(to bottom, rgba(255, 255, 255,0) 0%, rgba(52, 58, 64, 0.9) 20%, rgba(52, 58, 64,1) 100%) ; */
+  background:rgb(52, 58, 64)
+}
+
+.css-signature small {
+  color : #e5ffff
+}
+
+.fa-icones:hover {
+  color: #ffc107;
+  transition: 0.5s ease;
+}
+
+.fa-icones-linkedin:hover {
+  color: #0270ad;
+  transition: 0.5s ease;
+}
+
+.fa-icones-facebook:hover {
+  color: #4867aa;
+  transition: 0.5s ease;
+}
+
+.fa-icones-twitter:hover {
+  color: #1da1f2;
+  transition: 0.5s ease;
+}
+
+.fa-icones,
+.fa-icones-linkedin,
+.fa-icones-facebook, 
+.fa-icones-twitter
+{
+  color: #e5ffff;
+}

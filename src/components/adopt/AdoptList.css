@@ -1,0 +1,10 @@
+.price {
+  background-color: #ffc107;
+  font-weight: bolder;
+}
+
+.priceno {
+  background-color: #a0a6ab;
+  font-weight: bolder;
+  color: white
+}

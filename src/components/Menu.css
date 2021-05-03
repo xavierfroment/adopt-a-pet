@@ -1,0 +1,11 @@
+.nav-link {
+  text-align: center;
+}
+
+.menu-hover.active {
+  background: #444;
+}
+
+.menu-hover:hover {
+  background: #333;
+}

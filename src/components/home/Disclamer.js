@@ -1,0 +1,14 @@
+import React from 'react'
+
+export default function Disclamer() {
+  return (
+    <div className="card shadow-sm">
+      <h5 className="card-header bg-danger text-light">Avertissement</h5>
+      <div className="card-body">
+        <p>Ce site est une démonstration et n'est pas destiné à l'adoption d'animaux. La grande majeure partie des images d'animaux sont libres de droit.</p>
+        <p>Pour plus de transparence, vous trouverez les liens dans chaque fiche.</p>
+        <p>Merci de votre compréhention et bonne visite.</p>
+      </div>
+    </div>
+  )
+}

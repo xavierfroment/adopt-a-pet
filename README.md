@@ -1,2 +1,2 @@
 # adopt-a-pet
-Pet adoption web application demo
+Web application demo for pet adoption

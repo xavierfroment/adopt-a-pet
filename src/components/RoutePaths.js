@@ -10,7 +10,6 @@ import NewUser from './account/NewUser'
 import Error from './error/Error'
 import Menu from './Menu'
 
-
 const RoutePaths = () => {
   return (
     <Router>

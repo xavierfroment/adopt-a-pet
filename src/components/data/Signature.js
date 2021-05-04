@@ -14,7 +14,7 @@ export default function Signature() {
         <FaEnvelope onClick={() => (window.location.href="mailto:fromentxavier@gmail.com")} size={40} className="fa-icones"/>
       </div>
       <small>
-        Crée par Xavier FROMENT (2021)
+        Créée par Xavier FROMENT - 2021
       </small>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import Caroussel from './Caroussel'
 import Disclamer from './Disclamer'
+import Liens from './Liens'
 
 function Home() {
   return (
@@ -10,6 +11,8 @@ function Home() {
       <Caroussel/>
       <br/>
       <Disclamer/>
+      <br/>
+      <Liens/>
       <br/>
     </div>
   )

@@ -49,6 +49,7 @@ const Caroussel = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <br/>
     </>
   )
 }

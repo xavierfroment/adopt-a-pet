@@ -9,11 +9,8 @@ function Home() {
       <h1>Bienvenue chez Adopt'A Pet !</h1>
       <br/>
       <Caroussel/>
-      <br/>
       <Disclamer/>
-      <br/>
       <Liens/>
-      <br/>
     </div>
   )
 }

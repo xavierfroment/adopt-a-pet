@@ -6,7 +6,7 @@ import './AdoptList.css'
 function AdoptList({id, nom, race, img, alt, dispo}) {
   return (
     <div className="col mb-3" key={id}>
-      <div className="card border shadow-sm" style={{minHeight:"450px"}}>
+      <div className={`${dispo ? ( "card shadow-sm border border-warning") : ("card shadow-sm border border-secondary")}`} style={{minHeight:"450px"}}>
         <img src={img} alt={alt} className="card-img-top m-auto" />
         {dispo ? ( 
             <div className="text-center price">Disponible</div>

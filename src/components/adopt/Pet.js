@@ -3,6 +3,7 @@ import { FaArrowLeft, FaHeart } from 'react-icons/fa';
 import { useParams, useHistory } from 'react-router'
 import { Link } from 'react-router-dom';
 import petList from '../data/petList';
+import WhyNA from './WhyNA';
 
 function Pet() {
 
@@ -37,7 +38,7 @@ function Pet() {
                   )}
               </div>
             </div>
-            <div className="card shadow-sm mb-3">
+            <div className={`${dispo ? ("card shadow-sm mb-3 border border-warning") : ("card shadow-sm mb-3 border border-secondary")}`}>
               <div className="row no-gutters">
                 <div className="col-md-7">
                   <img
@@ -45,7 +46,7 @@ function Pet() {
                     src={img}
                     alt={alt}
                   />
-                  { dispo ? ( 
+                  {dispo ? ( 
                       <div className="price text-center">Disponible</div>
                     ) : (
                       <div className="priceno text-center">Bientôt à l'adoption</div>
@@ -64,13 +65,15 @@ function Pet() {
                 </div>
               </div>
             </div>
-            <div className="card shadow-sm mb-3">
+            <div className={`${dispo ? ("card shadow-sm mb-3 border border-warning") : ("card shadow-sm mb-3 border border-secondary")}`}>
               <h5 className="card-header bg-transparent">Descriptif de {nom}</h5>
               <div className="card-body">
                 <div>{description}</div>
               </div>
             </div>
+            {!dispo && (<WhyNA/>)}
             <br/>
+
           </div>
         ))}
     </div>

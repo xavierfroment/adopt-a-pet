@@ -6,7 +6,7 @@ import Liens from './Liens'
 function Home() {
   return (
     <div className="container">
-      <h1>Bienvenue chez Adopt'A Pet !</h1>
+      <h1>Bienvenue chez Adopt'Un Ami !</h1>
       <br/>
       <Caroussel/>
       <Disclamer/>

@@ -54,7 +54,7 @@ const Contact = () => {
                 <div>Nom et Prénom</div>
                 <div className="input-group">
                   <div className="input-group-prepend">
-                    <div className="input-group-text bg-light"><FaUser/></div>
+                    <div className="input-group-text bg-white"><FaUser/></div>
                   </div>
                   {/* ----> Input field <---- */}
                   <Field name="fullName" className="form-control"/>
@@ -68,7 +68,7 @@ const Contact = () => {
                 <div>Votre email</div>
                 <div className="input-group">
                   <div className="input-group-prepend">
-                    <div className="input-group-text bg-light">@</div>
+                    <div className="input-group-text bg-white">@</div>
                   </div>
                   {/* ----> Input field <---- */}
                   <Field name="email" type="email" className="form-control"/>
@@ -82,7 +82,7 @@ const Contact = () => {
                 <div>Votre message</div>
                 <div className="input-group">
                   <div className="input-group-prepend">
-                    <div className="input-group-text bg-light"><FaEdit/></div>
+                    <div className="input-group-text bg-white"><FaEdit/></div>
                   </div>
                   {/* ----> Input field <---- */}
                   <Field name="message" component="textarea" className="form-control" row="5"/>

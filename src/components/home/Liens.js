@@ -37,7 +37,7 @@ function Liens() {
           <div className="card shadow-sm border border-warning" style={{minHeight:"350px"}}>
             <h5 className="card-header text-center">SPA</h5>
             <div className="card-body text-justify">
-              Si vous souhaitez réellement faire une bonne action et adoptez un animal, vous pouvez vous rendre directement sur le site de la SPA en cliquant sur l'image ci-dessous.
+              Si vous souhaitez réellement faire une bonne action et adoptez un animal, vous pouvez vous rendre directement sur le site de la SPA en cliquant sur le bouton ci-dessous.
               <br/>
               <div className="text-center">
                 <img 
